@@ -1,0 +1,213 @@
+@import '../../../styles/_global-styles.scss';
+
+li[ds-navbar-section] {
+    ds-link-menu-item {
+    --ds-navbar-link-color: white;
+    --ds-navbar-link-color-hover: white;
+    }
+}
+// Add any global css for the theme here
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
+    font-weight: 300;
+    line-height: 1.428571429;
+    color: #333;
+}
+.main-content {
+    background: url('../assets/images/era-globe-icon.png') right top no-repeat;
+    background-size: 35%;
+    margin-top: 0px!important;
+    margin-bottom: -5px!important;
+    padding-top: var(--ds-content-spacing);
+}
+.main-content-lower {
+    background: url('../assets/images/era-daisy-icon.png') left bottom no-repeat;
+    background-size: 45%;
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    // padding-bottom: var(--ds-content-spacing);
+    padding-bottom: 5.8rem;
+}
+p {
+    font-weight: 200;
+}
+a {
+    color: #2b466b;
+}
+h1 small, h1 .small, h2 small, h2 .small, h3 small, h3 .small, h4 small, h4 .small, h5 small, h5 .small, h6 small, h6 .small, .h1 small, .h1 .small, .h2 small, .h2 .small, .h3 small, .h3 .small, .h4 small, .h4 .small, .h5 small, .h5 .small, .h6 small, .h6 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: #777;
+}
+span {
+    font-weight: normal;
+    line-height: 1;
+    color: #545454;
+}
+
+// .navbar-light .navbar-nav .nav-link {
+//     color: #fff!important;
+// }
+
+.nav-item .nav-link,
+.nav-item .nav-link span {
+    color: #fff;
+}
+.dropdown-toggle::after {
+    color: #fff!important;
+}
+ul .m-0 .shadow-none .border-top-0 .dropdown-menu .show .navbar-light .nav-item .nav-link {
+    color: #333!important;
+}
+.ds-link-menu-item {
+    color: #fff!important;
+}
+i.fas.fa-globe-asia.fa-lg.fa-fw {
+    color: #fff!important;
+}
+.nav-item .dropdown .expandable-navbar-section .text-md-center {
+    background-color: #609bdb!important;
+    font-weight: 300!important;
+    color: #fff!important;
+}
+.nav-breadcrumb, .breadcrumb {
+    background-color: #d2e5fa!important;
+}
+.breadcrumb-item-limiter a {
+    color: #2b466b!important;
+}
+.btn-primary, .btn-secondary,
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+    background-color: #2b466b;
+    color: #fff;
+    border-color: transparent;
+}
+// .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle:hover
+.btn-primary:hover, .btn-secondary:hover {
+    background-color: #396096;
+}
+.btn-outline-primary:hover, .btn-outline-primary:hover i {
+    color: #fff;
+}
+.btn-outline-secondary:hover {
+    background-color: #d2e5fa;
+    color: #495057;
+}
+.badge-info {
+    background-color: #396096;
+}
+.sr-only {
+    color: #fff;
+}
+.fas {
+    color: #fff;
+}
+.fa-angle-down, .fa-angle-up, .expandButton span, .fa-info-circle {
+    color: #2b466b;
+}
+.facet-filter, .setting-option {
+    background-color: var(--bs-light);
+}
+.facet-filter-header {
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.facet-filter .fas {
+    color: buttontext;
+}
+.sidebar-content h2 {
+    font-size: calc(1.3rem + .6vw);
+    font-weight: 400!important;
+}
+.setting-option h3{
+    font-size: 1.1rem;
+}
+li.mt-4.mb-4 {
+    margin-top: 0.5rem! important;
+    margin-bottom: 0.5rem! important;
+}
+.clamp-default-none, .clamp-default-1 {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.collections a span {
+    color: #2b466b;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.sidebar-collapsible span {
+    color: #fff;
+}
+.sidebar-sub-level-items a {
+    color: #fff!important;
+}
+.sidebar-sub-level-items a:hover {
+    color: #939495!important;
+}
+
+// fixing/replacing full item page table for divs
+.div-table-body {
+    vertical-align: middle;
+    border-color: inherit;
+    color: #343a40;
+}
+
+.div-table-body .div-table-row:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+
+.div-table-row {
+    width: 100%;
+    display: table;
+}
+
+.div-table-column {
+    display: table-cell;
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    width: 33.3%;
+}
+
+.div-table-column.div-table-language {
+    text-align: right;
+    padding-right: 4rem;
+}
+
+// fixing statistics page heading levels
+.statistics-header {
+    font-size: 2rem;
+}
+.m-1 h2 {
+    font-size: 1.75rem;
+}
+
+.div-table-stats-column-1 {
+    display: table-cell;
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    width: 75%;
+}
+.div-table-stats-clolumn-1-bold {
+    font-weight: bold;
+}
+.div-table-stats-column-2 {
+    display: table-cell;
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    width: 25%;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #343a40;
+}
+.div-table-stats-clolumn-2-bold {
+    font-weight: bold;
+}
+
+// imports the base global style
+@import '../../../styles/_global-styles.scss';
