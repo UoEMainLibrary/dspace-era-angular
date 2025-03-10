@@ -1,0 +1,17 @@
+nav {
+    background-color: #456f9c;
+    font-weight: 300;
+}
+
+:host {
+
+    .navbar-section {
+        
+            ::ng-deep a.nav-link.dropdown-toggle,
+            ::ng-deep a.nav-link.dropdown-toggle:hover {
+                color: white;
+            }
+            
+        }
+    }
+

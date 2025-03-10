@@ -1,21 +1,16 @@
 {
-  "401.help": "आप इस पृष्ठ का प्रयोग करने की अनुमति नहीं हैं। होम पेज पर वापस जाने के लिए आप नीचे दिए गए बटन का उपयोग कर सकते हैं।",
 
+  "401.help": "आप इस पृष्ठ का प्रयोग करने की अनुमति नहीं हैं। होम पेज पर वापस जाने के लिए आप नीचे दिए गए बटन का उपयोग कर सकते हैं।",
 
   "401.link.home-page": "मुझे होम पेज पर ले चलो",
 
-
   "401.unauthorized": "अनधिकृत",
-
 
   "403.forbidden": "वर्जित",
 
-
   "403.help": "आपको इस पृष्ठ का अभिगमन करने की अनुमति नहीं है। होम पेज पर वापस जाने के लिए आप नीचे दिए गए बटन का उपयोग कर सकते हैं।",
 
-
   "403.link.home-page": "मुझे होम पेज पर ले चलो",
-
 
   "404.help": "आप जिस पेज की तलाश कर रहे हैं, वह हमें नहीं मिल रहा है। हो सकता है कि पृष्ठ को स्थानांतरित या हटा दिया गया हो। होम पेज पर वापस जाने के लिए आप नीचे दिए गए बटन का उपयोग कर सकते हैं।",
 
@@ -1591,7 +1586,7 @@
 
   "health.breadcrumbs": "स्वास्थ्य",
 
-  "hello": "नमस्ते",
+  hello: "नमस्ते",
 
   "home.breadcrumbs": "मुख्य पृष्ठ",
 
@@ -2677,15 +2672,15 @@
 
   "mydspace.show.workspace": "आपकी प्रस्तुतियां",
 
-  "mydspace.status.archived": "संग्रहीत",
+  "mydspace.status.mydspaceArchived": "संग्रहीत",
 
-  "mydspace.status.validation": "सत्यापन",
+  "mydspace.status.mydspaceValidation": "सत्यापन",
 
-  "mydspace.status.waiting-for-controller": "नियंत्रक की प्रतीक्षा कर रहा है",
+  "mydspace.status.mydspaceWaitingController": "नियंत्रक की प्रतीक्षा कर रहा है",
 
-  "mydspace.status.workflow": "कार्यप्रवाह",
+  "mydspace.status.mydspaceWorkflow": "कार्यप्रवाह",
 
-  "mydspace.status.workspace": "कार्यस्थान",
+  "mydspace.status.mydspaceWorkspace": "कार्यस्थान",
 
   "mydspace.title": "मेरा डीस्पेस",
 
@@ -4451,7 +4446,7 @@
 
   "thumbnail.project.placeholder": "परियोजना स्थानधारक छवि",
 
-  "title": "डीस्पेस",
+  title: "डीस्पेस",
 
   "uploader.browse": "ब्राउज़ करें",
 
@@ -4532,5 +4527,4 @@
   "workspace-item.view.title": "कार्यक्षेत्र दृश्य",
 
   "workspace.search.results.head": "आपकी प्रस्तुतियाँ",
-
 }

@@ -1,0 +1,53 @@
+/* deafuat header css */
+.navbar-brand img {
+    max-height: var(--ds-header-logo-height);
+    max-width: 100%;
+    @media screen and (max-width: map-get($grid-breakpoints, sm)) {
+        max-height: var(--ds-header-logo-height-xs);
+    }
+    }
+
+    .navbar-toggler .navbar-toggler-icon {
+    background-image: none !important;
+    line-height: 1.5;
+    }
+
+    .navbar-toggler {
+    border: none;
+    color: var(--ds-header-icon-color);
+
+    &:hover, &:focus {
+        color: var(--ds-header-icon-color-hover);
+    }
+}
+
+/* custom header css */
+header {
+    background-color: #2b466b;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 2rem;
+    margin: 0px;
+}
+a {
+    color: #fff;
+}
+a:hover {
+    text-decoration: none;
+}
+.navbar-brand img {
+    max-height: 6rem;
+    max-width: 6rem;
+}
+.era-logo {
+    max-width: 10rem!important;
+}
+a.navbar-brand.my-2 {
+    margin: 0;
+}

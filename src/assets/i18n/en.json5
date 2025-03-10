@@ -508,9 +508,9 @@
 
   "admin.access-control.groups.form.tooltip.editGroupPage": "On this page, you can modify the properties and members of a group. In the top section, you can edit the group name and description, unless this is an admin group for a collection or community, in which case the group name and description are auto-generated and cannot be edited. In the following sections, you can edit group membership. See [the wiki](https://wiki.lyrasis.org/display/DSDOC7x/Create+or+manage+a+user+group) for more details.",
 
-  "admin.access-control.groups.form.tooltip.editGroup.addEpeople": "To add or remove an EPerson to/from this group, either click the 'Browse All' button or use the search bar below to search for users (use the dropdown to the left of the search bar to choose whether to search by metadata or by email). Then click the plus icon for each user you wish to add in the list below, or the trash can icon for each user you wish to remove. The list below may have several pages: use the page controls below the list to navigate to the next pages. Once you are ready, save your changes by clicking the 'Save' button in the top section.",
+  "admin.access-control.groups.form.tooltip.editGroup.addEpeople": "To add or remove an EPerson to/from this group, either click the 'Browse All' button or use the search bar below to search for users (use the dropdown to the left of the search bar to choose whether to search metadata or email). Then click the plus icon for each user you wish to add in the list below, or the trash can icon for each user you wish to remove. The list below may have several pages: use the page controls below the list to navigate to the next pages.",
 
-  "admin.access-control.groups.form.tooltip.editGroup.addSubgroups": "To add or remove a Subgroup to/from this group, either click the 'Browse All' button or use the search bar below to search for users. Then click the plus icon for each user you wish to add in the list below, or the trash can icon for each user you wish to remove. The list below may have several pages: use the page controls below the list to navigate to the next pages. Once you are ready, save your changes by clicking the 'Save' button in the top section.",
+  "admin.access-control.groups.form.tooltip.editGroup.addSubgroups": "To add or remove a Subgroup to/from this group, either click the 'Browse All' button or use the search bar below to search for groups. Then click the plus icon for each group you wish to add in the list below, or the trash can icon for each group you wish to remove. The list below may have several pages: use the page controls below the list to navigate to the next pages.",
 
   "admin.search.breadcrumbs": "Administrative Search",
 
@@ -774,17 +774,27 @@
 
   "browse.back.all-results": "All browse results",
 
-  "browse.comcol.by.author": "By Author",
+  "browse.comcol.by.author": "Author",
 
-  "browse.comcol.by.dateissued": "By Issue Date",
+  "browse.comcol.by.dateissued": "Issue Date",
 
-  "browse.comcol.by.subject": "By Subject",
+  "browse.comcol.by.subject": "Subject",
 
-  "browse.comcol.by.srsc": "By Subject Category",
+  "browse.comcol.by.srsc": "Subject Category",
 
-  "browse.comcol.by.title": "By Title",
+  "browse.comcol.by.nsi": "Norwegian Science Index",
+
+  "browse.comcol.by.title": "Title",
 
   "browse.comcol.head": "Browse",
+
+  // custom start
+    "browse.comcol.by.itemtype": "Publication Type",
+
+    "browse.comcol.by.sponsor": "Sponsor",
+
+    "browse.comcol.by.supervisor": "Supervisor",
+  // custom end
 
   "browse.empty": "No items to show.",
 
@@ -796,15 +806,17 @@
 
   "browse.metadata.title": "Title",
 
-  "browse.metadata.author.breadcrumbs": "Browse by Author",
+  "browse.metadata.author.breadcrumbs": "Browse Author",
 
-  "browse.metadata.dateissued.breadcrumbs": "Browse by Date",
+  "browse.metadata.dateissued.breadcrumbs": "Browse Date",
 
-  "browse.metadata.subject.breadcrumbs": "Browse by Subject",
+  "browse.metadata.subject.breadcrumbs": "Browse Subject",
 
-  "browse.metadata.srsc.breadcrumbs": "Browse by Subject Category",
+  "browse.metadata.srsc.breadcrumbs": "Browse Subject Category",
 
-  "browse.metadata.title.breadcrumbs": "Browse by Title",
+  "browse.metadata.nsi.breadcrumbs": "Browse Norwegian Science Index",
+
+  "browse.metadata.title.breadcrumbs": "Browse Title",
 
   "pagination.next.button": "Next",
 
@@ -820,7 +832,7 @@
 
   "browse.startsWith.choose_year.label": "Choose the issue year",
 
-  "browse.startsWith.jump": "Filter results by year or month",
+  "browse.startsWith.jump": "Filter results year or month",
 
   "browse.startsWith.months.april": "April",
 
@@ -852,19 +864,19 @@
 
   "browse.startsWith.submit": "Browse",
 
-  "browse.startsWith.type_date": "Filter results by date",
+  "browse.startsWith.type_date": "Filter results date",
 
   "browse.startsWith.type_date.label": "Or type in a date (year-month) and click on the Browse button",
 
-  "browse.startsWith.type_text": "Filter results by typing the first few letters",
+  "browse.startsWith.type_text": "Filter results typing the first few letters",
 
   "browse.startsWith.input": "Filter",
 
   "browse.taxonomy.button": "Browse",
 
-  "browse.title": "Browsing {{ collection }} by {{ field }}{{ startsWith }} {{ value }}",
+  "browse.title": "Browsing {{ collection }} {{ field }}{{ startsWith }} {{ value }}",
 
-  "browse.title.page": "Browsing {{ collection }} by {{ field }} {{ value }}",
+  "browse.title.page": "Browsing {{ collection }} {{ field }} {{ value }}",
 
   "search.browse.item-back": "Back to Results",
 
@@ -1072,7 +1084,7 @@
 
   "collection.listelement.badge": "Collection",
 
-  "collection.page.browse.recent.head": "Recent Submissions",
+  "collection.page.browse.recent.head": "Recently Added",
 
   "collection.page.browse.recent.empty": "No items to show",
 
@@ -1250,7 +1262,7 @@
 
   "comcol-role.edit.item_read.name": "Default item read access",
 
-  "comcol-role.edit.item_read.description": "E-People and Groups that can read new items submitted to this collection. Changes to this role are not retroactive. Existing items in the system will still be viewable by those who had read access at the time of their addition.",
+  "comcol-role.edit.item_read.description": "E-People and Groups that can read new items submitted to this collection. Changes to this role are not retroactive. Existing items in the system will still be viewable those who had read access at the time of their addition.",
 
   "comcol-role.edit.item_read.anonymous-group": "Default read for incoming items is currently set to Anonymous.",
 
@@ -1300,13 +1312,13 @@
 
   "community.sub-collection-list.head": "Collections in this Community",
 
-  "community.sub-community-list.head": "Communities in this Community",
+  "community.sub-community-list.head": "Sub-Communities in this Community",
 
   "cookies.consent.accept-all": "Accept all",
 
   "cookies.consent.accept-selected": "Accept selected",
 
-  "cookies.consent.app.opt-out.description": "This app is loaded by default (but you can opt out)",
+  "cookies.consent.app.opt-out.description": "This app is loaded default (but you can opt out)",
 
   "cookies.consent.app.opt-out.title": "(opt-out)",
 
@@ -1392,7 +1404,7 @@
 
   "curation-task.task.vscan.label": "Virus Scan",
 
-  "curation-task.task.register-doi.label": "Register DOI",
+  "curation-task.task.registerdoi.label": "Register DOI",
 
   "curation.form.task-select.label": "Task:",
 
@@ -1468,7 +1480,7 @@
 
   "dso-selector.set-scope.community.head": "Select a search scope",
 
-  "dso-selector.set-scope.community.button": "Search all of DSpace",
+  "dso-selector.set-scope.community.button": "Search all of ERA",
 
   "dso-selector.set-scope.community.or-divider": "or",
 
@@ -1586,7 +1598,7 @@
 
   "error.validation.license.notgranted": "You must grant this license to complete your submission. If you are unable to grant this license at this time you may save your work and return later or remove the submission.",
 
-  "error.validation.pattern": "This input is restricted by the current pattern: {{ pattern }}.",
+  "error.validation.pattern": "This input is restricted the current pattern: {{ pattern }}.",
 
   "error.validation.filerequired": "The file upload is mandatory",
 
@@ -1656,7 +1668,7 @@
 
   "forgot-password.form.head": "Forgot Password",
 
-  "forgot-password.form.info": "Enter a new password in the box below, and confirm it by typing it again into the second box.",
+  "forgot-password.form.info": "Enter a new password in the box below, and confirm it typing it again into the second box.",
 
   "forgot-password.form.card.security": "Security",
 
@@ -1836,7 +1848,7 @@
 
   "home.title": "Home",
 
-  "home.top-level-communities.head": "Communities in DSpace",
+  "home.top-level-communities.head": "Communities in ERA",
 
   "home.top-level-communities.help": "Select a community to browse its collections.",
 
@@ -1870,7 +1882,7 @@
 
   "info.feedback.title": "Feedback",
 
-  "info.feedback.info": "Thanks for sharing your feedback about the DSpace system. Your comments are appreciated!",
+  "info.feedback.info": "Thanks for sharing your feedback about ERA. Your comments are appreciated!",
 
   "info.feedback.email_help": "This address will be used to follow up on your feedback.",
 
@@ -1968,7 +1980,7 @@
 
   "item.edit.bitstreams.notifications.move.saved.title": "Move changes saved",
 
-  "item.edit.bitstreams.notifications.outdated.content": "The item you're currently working on has been changed by another user. Your current changes are discarded to prevent conflicts",
+  "item.edit.bitstreams.notifications.outdated.content": "The item you're currently working on has been changed another user. Your current changes are discarded to prevent conflicts",
 
   "item.edit.bitstreams.notifications.outdated.title": "Changes outdated",
 
@@ -2126,7 +2138,7 @@
 
   "item.edit.metadata.notifications.invalid.title": "Metadata invalid",
 
-  "item.edit.metadata.notifications.outdated.content": "The item you're currently working on has been changed by another user. Your current changes are discarded to prevent conflicts",
+  "item.edit.metadata.notifications.outdated.content": "The item you're currently working on has been changed another user. Your current changes are discarded to prevent conflicts",
 
   "item.edit.metadata.notifications.outdated.title": "Changes outdated",
 
@@ -2224,7 +2236,7 @@
 
   "item.edit.relationships.notifications.failed.title": "Error editing relationships",
 
-  "item.edit.relationships.notifications.outdated.content": "The item you're currently working on has been changed by another user. Your current changes are discarded to prevent conflicts",
+  "item.edit.relationships.notifications.outdated.content": "The item you're currently working on has been changed another user. Your current changes are discarded to prevent conflicts",
 
   "item.edit.relationships.notifications.outdated.title": "Changes outdated",
 
@@ -2378,7 +2390,7 @@
 
   "item.page.citation": "Citation",
 
-  "item.page.collections": "Collections",
+  "item.page.collections": "This item appears in the following Collection(s)",
 
   "item.page.collections.loading": "Loading...",
 
@@ -2410,7 +2422,7 @@
 
   "item.page.orcid.tooltip": "Open ORCID setting page",
 
-  "item.page.person.search.title": "Articles by this author",
+  "item.page.person.search.title": "Articles this author",
 
   "item.page.related-items.view-more": "Show {{ amount }} more",
 
@@ -2638,7 +2650,7 @@
 
   "itemtemplate.edit.metadata.notifications.invalid.title": "Metadata invalid",
 
-  "itemtemplate.edit.metadata.notifications.outdated.content": "The item template you're currently working on has been changed by another user. Your current changes are discarded to prevent conflicts",
+  "itemtemplate.edit.metadata.notifications.outdated.content": "The item template you're currently working on has been changed another user. Your current changes are discarded to prevent conflicts",
 
   "itemtemplate.edit.metadata.notifications.outdated.title": "Changes outdated",
 
@@ -2764,11 +2776,9 @@
 
   "login.form.forgot-password": "Have you forgotten your password?",
 
-  "login.form.header": "Please log in to DSpace",
+  "login.form.header": "Please log in to ERA",
 
-  "login.form.new-user": "New user? Click here to register.",
-
-  "login.form.or-divider": "or",
+  "login.form.new-user": "New user? Register here.",
 
   "login.form.oidc": "Log in with OIDC",
 
@@ -2784,7 +2794,7 @@
 
   "login.breadcrumbs": "Login",
 
-  "logout.form.header": "Log out from DSpace",
+  "logout.form.header": "Log out from ERA",
 
   "logout.form.submit": "Log out",
 
@@ -2810,23 +2820,34 @@
 
   "menu.section.browse_community": "This Community",
 
-  "menu.section.browse_community_by_author": "By Author",
+  "menu.section.browse_community_by_author": "Author",
 
-  "menu.section.browse_community_by_issue_date": "By Issue Date",
+  "menu.section.browse_community_by_issue_date": "Issue Date",
 
-  "menu.section.browse_community_by_title": "By Title",
+  "menu.section.browse_community_by_title": "Title",
 
-  "menu.section.browse_global": "All of DSpace",
+  "menu.section.browse_global": "Browse ERA",
 
-  "menu.section.browse_global_by_author": "By Author",
+  "menu.section.browse_global_by_author": "Author",
 
-  "menu.section.browse_global_by_dateissued": "By Issue Date",
+  "menu.section.browse_global_by_dateissued": "Issue Date",
 
-  "menu.section.browse_global_by_subject": "By Subject",
+  "menu.section.browse_global_by_subject": "Subject",
 
-  "menu.section.browse_global_by_srsc": "By Subject Category",
+  "menu.section.browse_global_by_srsc": "Subject Category",
 
-  "menu.section.browse_global_by_title": "By Title",
+  "menu.section.browse_global_by_nsi": "Norwegian Science Index",
+
+  "menu.section.browse_global_by_title": "Title",
+
+  // custom
+  "menu.section.browse_global_by_itemtype": "Publication Type",
+
+  "menu.section.browse_global_by_sponsor": "Sponsor",
+
+  "menu.section.browse_global_by_supervisor": "Supervisor",
+
+  // custom end
 
   "menu.section.browse_global_communities_and_collections": "Communities & Collections",
 
@@ -2950,7 +2971,7 @@
 
   "metadata-export-search.submit.error": "Starting the export has failed",
 
-  "mydspace.breadcrumbs": "MyDSpace",
+  "mydspace.breadcrumbs": "ERA",
 
   "mydspace.description": "",
 
@@ -3004,7 +3025,7 @@
 
   "mydspace.results.no-uri": "No Uri",
 
-  "mydspace.search-form.placeholder": "Search in mydspace...",
+  "mydspace.search-form.placeholder": "Search in ERA...",
 
   "mydspace.show.workflow": "Workflow tasks",
 
@@ -3022,7 +3043,7 @@
 
   "mydspace.status.mydspaceWorkspace": "Workspace",
 
-  "mydspace.title": "MyDSpace",
+  "mydspace.title": "ERA",
 
   "mydspace.upload.upload-failed": "Error creating new workspace. Please verify the content uploaded before retry.",
 
@@ -3034,9 +3055,9 @@
 
   "mydspace.view-btn": "View",
 
-  "nav.browse.header": "All of DSpace",
+  "nav.browse.header": "All of ERA",
 
-  "nav.community-browse.header": "By Community",
+  "nav.community-browse.header": "Community",
 
   "nav.context-help-toggle": "Toggle context help",
 
@@ -3050,7 +3071,7 @@
 
   "nav.main.description": "Main navigation bar",
 
-  "nav.mydspace": "MyDSpace",
+  "nav.mydspace": "ERA",
 
   "nav.profile": "Profile",
 
@@ -3290,7 +3311,7 @@
 
   "profile.security.form.error.matching-passwords": "The passwords do not match.",
 
-  "profile.security.form.info": "Optionally, you can enter a new password in the box below, and confirm it by typing it again into the second box.",
+  "profile.security.form.info": "Optionally, you can enter a new password in the box below, and confirm it typing it again into the second box.",
 
   "profile.security.form.label.password": "Password",
 
@@ -3388,7 +3409,7 @@
 
   "register-page.create-profile.security.header": "Security",
 
-  "register-page.create-profile.security.info": "Please enter a password in the box below, and confirm it by typing it again into the second box.",
+  "register-page.create-profile.security.info": "Please enter a password in the box below, and confirm it typing it again into the second box.",
 
   "register-page.create-profile.security.label.password": "Password *",
 
@@ -3410,7 +3431,7 @@
 
   "register-page.registration.header": "New user registration",
 
-  "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to DSpace.",
+  "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to ERA.",
 
   "register-page.registration.email": "Email Address *",
 
@@ -3492,9 +3513,9 @@
 
   "repository.image.logo": "Repository logo",
 
-  "repository.title": "DSpace Repository",
+  "repository.title": "Edinburgh Research Archive",
 
-  "repository.title.prefix": "DSpace Repository :: ",
+  "repository.title.prefix": "ERA :: ",
 
   "resource-policies.add.button": "Add",
 
@@ -3652,11 +3673,17 @@
 
   "search.filters.applied.f.withdrawn": "Withdrawn",
 
-  "search.filters.filter.author.head": "Author",
+  "search.filters.filter.author.head": "Authors",
 
   "search.filters.filter.author.placeholder": "Author name",
 
   "search.filters.filter.author.label": "Search author name",
+
+  "search.filters.filter.advisor.head": "Advisor",
+
+  "search.filters.filter.advisor.placeholder": "Advisor name",
+
+  "search.filters.filter.advisor.label": "Search advisor name",
 
   "search.filters.filter.birthDate.head": "Birth Date",
 
@@ -3690,7 +3717,7 @@
 
   "search.filters.filter.creativeWorkPublisher.label": "Search publisher",
 
-  "search.filters.filter.dateIssued.head": "Date",
+  "search.filters.filter.dateIssued.head": "Issue Date",
 
   "search.filters.filter.dateIssued.max.placeholder": "Maximum Date",
 
@@ -3720,7 +3747,7 @@
 
   "search.filters.filter.has_content_in_original_bundle.head": "Has files",
 
-  "search.filters.filter.itemtype.head": "Type",
+  "search.filters.filter.itemtype.head": "Publication Type",
 
   "search.filters.filter.itemtype.placeholder": "Type",
 
@@ -3778,7 +3805,7 @@
 
   "search.filters.filter.show-more": "Show more",
 
-  "search.filters.filter.subject.head": "Subject",
+  "search.filters.filter.subject.head": "Subjects",
 
   "search.filters.filter.subject.placeholder": "Subject",
 
@@ -3798,6 +3825,29 @@
 
   "search.filters.filter.supervisedBy.label": "Search Supervised By",
 
+  // custom
+
+  "search.filters.filter.title.head": "Titles",
+
+  "search.filters.filter.title.placeholder": "Title",
+
+  "search.filters.filter.title.label": "Search title",
+
+  "search.filters.filter.sponsor.head": "Sponsor",
+
+  "search.filters.filter.sponsor.placeholder": "Sponsors",
+
+  "search.filters.filter.sponsor.label": "Search sponsor name",
+
+  "search.filters.filter.supervisor.head": "Supervisors",
+
+  "search.filters.filter.supervisor.placeholder": "Supervisors",
+
+  "search.filters.filter.supervisor.label": "Search superviosor name",
+
+  // custom end
+
+
   "search.filters.entityType.JournalIssue": "Journal Issue",
 
   "search.filters.entityType.JournalVolume": "Journal Volume",
@@ -3811,6 +3861,16 @@
   "search.filters.discoverable.true": "No",
 
   "search.filters.discoverable.false": "Yes",
+
+  "search.filters.namedresourcetype.Archived": "Archived",
+
+  "search.filters.namedresourcetype.Validation": "Validation",
+
+  "search.filters.namedresourcetype.Waiting for Controller": "Waiting for Controller",
+
+  "search.filters.namedresourcetype.Workflow": "Workflow",
+
+  "search.filters.namedresourcetype.Workspace": "Workspace",
 
   "search.filters.withdrawn.true": "Yes",
 
@@ -3826,7 +3886,7 @@
 
   "search.form.search_dspace": "All repository",
 
-  "search.form.scope.all": "All of DSpace",
+  "search.form.scope.all": "All of ERA",
 
   "search.results.head": "Search Results",
 
@@ -3880,9 +3940,9 @@
 
   "sorting.dc.date.issued.DESC": "Date Issued Descending",
 
-  "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
+  "sorting.dc.date.accessioned.ASC": "Earliest Added",
 
-  "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
+  "sorting.dc.date.accessioned.DESC": "Recently Added",
 
   "sorting.lastModified.ASC": "Last modified Ascending",
 
@@ -3960,9 +4020,9 @@
 
   "submission.import-external.title.none": "Import metadata from an external source",
 
-  "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to DSpace.",
+  "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to ERA.",
 
-  "submission.import-external.back-to-my-dspace": "Back to MyDSpace",
+  "submission.import-external.back-to-my-dspace": "Back to ERA",
 
   "submission.import-external.search.placeholder": "Search the external source",
 
@@ -3998,7 +4058,7 @@
 
   "submission.import-external.source.sherpaJournal": "SHERPA Journals",
 
-  "submission.import-external.source.sherpaJournalIssn": "SHERPA Journals by ISSN",
+  "submission.import-external.source.sherpaJournalIssn": "SHERPA Journals ISSN",
 
   "submission.import-external.source.sherpaPublisher": "SHERPA Publishers",
 
@@ -4464,7 +4524,7 @@
 
   "submission.sections.upload.header.policy.default.withlist": "Please note that uploaded files in the {{collectionName}} collection will be accessible, in addition to what is explicitly decided for the single file, with the following group(s):",
 
-  "submission.sections.upload.info": "Here you will find all the files currently in the item. You can update the file metadata and access conditions or <strong>upload additional files by dragging & dropping them anywhere on the page.</strong>",
+  "submission.sections.upload.info": "Here you will find all the files currently in the item. You can update the file metadata and access conditions or <strong>upload additional files dragging & dropping them anywhere on the page.</strong>",
 
   "submission.sections.upload.no-entry": "No",
 
@@ -4532,7 +4592,7 @@
 
   "submission.sections.sherpa.publisher.policy.description": "The below information was found via Sherpa Romeo. Based on the policies of your publisher, it provides advice regarding whether an embargo may be necessary and/or which files you are allowed to upload. If you have questions, please contact your site administrator via the feedback form in the footer.",
 
-  "submission.sections.sherpa.publisher.policy.openaccess": "Open Access pathways permitted by this journal's policy are listed below by article version. Click on a pathway for a more detailed view",
+  "submission.sections.sherpa.publisher.policy.openaccess": "Open Access pathways permitted this journal's policy are listed below article version. Click on a pathway for a more detailed view",
 
   "submission.sections.sherpa.publisher.policy.more.information": "For more information, please see the following links:",
 
@@ -4726,7 +4786,7 @@
 
   "thumbnail.person.placeholder": "No Profile Picture Available",
 
-  "title": "DSpace",
+  title: "ERA",
 
   "vocabulary-treeview.header": "Hierarchical tree view",
 
@@ -4932,9 +4992,9 @@
 
   "person.page.orcid.missing-authorizations-message": "The following authorizations are missing:",
 
-  "person.page.orcid.no-missing-authorizations-message": "Great! This box is empty, so you have granted all access rights to use all functions offers by your institution.",
+  "person.page.orcid.no-missing-authorizations-message": "Great! This box is empty, so you have granted all access rights to use all functions offers your institution.",
 
-  "person.page.orcid.no-orcid-message": "No ORCID iD associated yet. By clicking on the button below it is possible to link this profile with an ORCID account.",
+  "person.page.orcid.no-orcid-message": "No ORCID iD associated yet. clicking on the button below it is possible to link this profile with an ORCID account.",
 
   "person.page.orcid.profile-preferences": "Profile preferences",
 
@@ -5168,9 +5228,9 @@
 
   "item-access-control-title": "This form allows you to perform changes to the access conditions of the item's metadata or its bitstreams.",
 
-  "collection-access-control-title": "This form allows you to perform changes to the access conditions of all the items owned by this collection. Changes may be performed to either all Item metadata or all content (bitstreams).",
+  "collection-access-control-title": "This form allows you to perform changes to the access conditions of all the items owned this collection. Changes may be performed to either all Item metadata or all content (bitstreams).",
 
-  "community-access-control-title": "This form allows you to perform changes to the access conditions of all the items owned by any collection under this community. Changes may be performed to either all Item metadata or all content (bitstreams).",
+  "community-access-control-title": "This form allows you to perform changes to the access conditions of all the items owned any collection under this community. Changes may be performed to either all Item metadata or all content (bitstreams).",
 
   "access-control-item-header-toggle": "Item's Metadata",
 
@@ -5215,5 +5275,4 @@
   "access-control-option-end-date": "Grant access until",
 
   "access-control-option-end-date-note": "Select the date until which the related access condition is applied",
-
 }
