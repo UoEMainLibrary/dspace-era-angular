@@ -35,8 +35,15 @@ a {
 a:hover {
     color: #690051;
 }
-.fas {
+i.fas.fa-globe-asia.fa-lg.fa-fw {
     color: #fff;
+}
+.admin-menu-header h4 {
+    color: #fff;
+    border-bottom: none;
+}
+.pin-sidebar {
+    color: #ffffff80;
 }
 
 .lead {
@@ -201,6 +208,16 @@ a.btn.btn-outline-primary:hover i.fas.fa-info-circle{
 
 i.fas.fa-lock {
     color: #346dbf;
+}
+
+.position-relative {
+    border-bottom: none;
+}
+.modal-body h5 {
+    border-bottom: none;
+}
+.text-secondary h3 {
+    border-bottom: none;
 }
 
 // fixing/replacing full item page table for divs
