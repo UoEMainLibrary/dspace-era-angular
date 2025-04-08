@@ -2366,6 +2366,14 @@
 
   "item.search.results.head": "Item Search Results",
 
+  // custom
+
+  "item.page.access-rights": "Item Status",
+
+  "item.page.embargodate": "Embargo End Date",
+
+  // custom end 
+
   "item.search.title": "Item Search",
 
   "item.truncatable-part.show-more": "Show more",
