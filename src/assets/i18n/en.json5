@@ -806,6 +806,10 @@
 
   "browse.metadata.title": "Title",
 
+  // custom start
+  "browse.metadata..supervisor": "Supervisor",
+  // custom end
+
   "browse.metadata.author.breadcrumbs": "Browse Author",
 
   "browse.metadata.dateissued.breadcrumbs": "Browse Date",
@@ -817,6 +821,10 @@
   "browse.metadata.nsi.breadcrumbs": "Browse Norwegian Science Index",
 
   "browse.metadata.title.breadcrumbs": "Browse Title",
+
+  // custom start
+  "browse.metadata..supervisor.breadcrumbs": "Supervisor",
+  // custom end
 
   "pagination.next.button": "Next",
 
