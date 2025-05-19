@@ -129,7 +129,7 @@ export class MetadataFieldSelectorComponent implements OnInit, OnDestroy, AfterV
       switchMap((query: string) => {
         this.showInvalid = false;
         if (query !== null) {
-          return this.registryService.queryMetadataFields(query, { elementsPerPage: 10, sort: new SortOptions('fieldName', SortDirection.ASC) }, true, false, followLink('schema')).pipe(
+          return this.registryService.queryMetadataFields(query, { elementsPerPage: 200, sort: new SortOptions('fieldName', SortDirection.ASC) }, true, false, followLink('schema')).pipe(
             getAllSucceededRemoteData(),
             metadataFieldsToString(),
           );
