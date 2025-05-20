@@ -6,7 +6,7 @@
                 <ul class="nav nav-tabs justify-content-start" role="tablist">
                     <li *ngFor="let page of pages" class="nav-item" [attr.aria-selected]="page.page === currentPage" role="tab">
                         <a *ngIf="(page.enabled | async)"
-                           class="nav-link"
+                           class="nav-link edit-tab"
                            [ngClass]="{'active' : page.page === currentPage}"
                            [routerLink]="['./' + page.page]">
                             {{'item.edit.tabs.' + page.page + '.head' | translate}}
