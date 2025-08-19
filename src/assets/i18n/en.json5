@@ -807,7 +807,9 @@
   "browse.metadata.title": "Title",
 
   // custom start
-  "browse.metadata..supervisor": "Supervisor",
+  "browse.metadata.supervisor": "Supervisor",
+
+  "browse.metadata.type": "Type",
   // custom end
 
   "browse.metadata.author.breadcrumbs": "Browse Author",
@@ -823,7 +825,9 @@
   "browse.metadata.title.breadcrumbs": "Browse Title",
 
   // custom start
-  "browse.metadata..supervisor.breadcrumbs": "Supervisor",
+  "browse.metadata.supervisor.breadcrumbs": "Supervisor",
+
+  "browse.metadata.type.breadcrumbs": "Type",
   // custom end
 
   "pagination.next.button": "Next",
@@ -2867,6 +2871,7 @@
 
   "menu.section.browse_global_by_supervisor": "Supervisor",
 
+  "menu.section.browse_global_by_type": "Type",
   // custom end
 
   "menu.section.browse_global_communities_and_collections": "Communities & Collections",
