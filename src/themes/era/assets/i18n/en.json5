@@ -2954,9 +2954,9 @@
 
   "metadata-export-search.submit.error": "Starting the export has failed",
 
-  "mydspace.breadcrumbs": "ERA",
+  "mydspace.breadcrumbs": "Submissions",
 
-  "mydspace.description": "",
+  "mydspace.description": "Submissions",
 
   "mydspace.messages.controller-help": "Select this option to send a message to item's submitter.",
 
@@ -3026,7 +3026,7 @@
 
   "mydspace.status.mydspaceWorkspace": "Workspace",
 
-  "mydspace.title": "ERA",
+  "mydspace.title": "Submissions",
 
   "mydspace.upload.upload-failed": "Error creating new workspace. Please verify the content uploaded before retry.",
 
@@ -3054,7 +3054,7 @@
 
   "nav.main.description": "Main navigation bar",
 
-  "nav.mydspace": "ERA",
+  "nav.mydspace": "Submissions",
 
   "nav.profile": "Profile",
 
@@ -3976,7 +3976,7 @@
 
   "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to ERA.",
 
-  "submission.import-external.back-to-my-dspace": "Back to ERA",
+  "submission.import-external.back-to-my-dspace": "Back to Submissions",
 
   "submission.import-external.search.placeholder": "Search the external source",
 
