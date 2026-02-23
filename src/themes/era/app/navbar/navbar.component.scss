@@ -1,0 +1,22 @@
+nav {
+    background-color: #830065;
+    font-weight: 300;
+}
+
+:host {
+
+    .navbar-section {
+        
+            ::ng-deep a.nav-link.dropdown-toggle,
+            ::ng-deep a.nav-link.dropdown-toggle:hover {
+                color: white;
+            }
+            
+        }
+    }
+
+// @media (max-width: 768px) {
+//      nav {
+//         display: none;
+//      }
+// }

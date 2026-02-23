@@ -34,5 +34,5 @@ li.breadcrumb-item.active {
 
 .breadcrumb-item+ .breadcrumb-item::before {
   display: block;
-  content: quote("•") !important;
+  content: quote("•");
 }
