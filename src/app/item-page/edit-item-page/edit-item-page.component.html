@@ -7,7 +7,7 @@
                     <li *ngFor="let page of pages" class="nav-item" role="presentation">
                         <a *ngIf="(page.enabled | async)"
                            [attr.aria-selected]="page.page === currentPage"
-                           class="nav-link"
+                           class="nav-link edit-tab"
                            [ngClass]="{'active' : page.page === currentPage}"
                            [routerLink]="['./' + page.page]"
                            [attr.data-test]="page.page"
