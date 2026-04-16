@@ -1,4 +1,4 @@
-.img-fluid {
-    max-width: 30%;
-    height: auto;
+img {
+  max-width: var(--ds-comcol-logo-max-width);
+  max-height: var(--ds-comcol-logo-max-height);
 }
