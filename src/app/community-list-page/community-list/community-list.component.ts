@@ -1,13 +1,34 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import {
+  CdkTreeModule,
+  FlatTreeControl,
+} from '@angular/cdk/tree';
+import {
+  AsyncPipe,
+  NgClass,
+  NgIf,
+} from '@angular/common';
+import {
+  Component,
+  OnDestroy,
+  OnInit,
+} from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 import { take } from 'rxjs/operators';
-import { SortDirection, SortOptions } from '../../core/cache/models/sort-options.model';
-import { CommunityListService} from '../community-list-service';
-import { CommunityListDatasource } from '../community-list-datasource';
-import { FlatTreeControl } from '@angular/cdk/tree';
-import { isEmpty } from '../../shared/empty.util';
-import { FlatNode } from '../flat-node.model';
-import { FindListOptions } from '../../core/data/find-list-options.model';
+
 import { DSONameService } from '../../core/breadcrumbs/dso-name.service';
+import {
+  SortDirection,
+  SortOptions,
+} from '../../core/cache/models/sort-options.model';
+import { FindListOptions } from '../../core/data/find-list-options.model';
+import { isEmpty } from '../../shared/empty.util';
+import { ThemedLoadingComponent } from '../../shared/loading/themed-loading.component';
+import { TruncatableComponent } from '../../shared/truncatable/truncatable.component';
+import { TruncatablePartComponent } from '../../shared/truncatable/truncatable-part/truncatable-part.component';
+import { CommunityListDatasource } from '../community-list-datasource';
+import { CommunityListService } from '../community-list-service';
+import { FlatNode } from '../flat-node.model';
 
 /**
  * A tree-structured list of nodes representing the communities, their subCommunities and collections.
@@ -17,8 +38,11 @@ import { DSONameService } from '../../core/breadcrumbs/dso-name.service';
  * Which nodes were expanded is kept in the store, so this persists across pages.
  */
 @Component({
-  selector: 'ds-community-list',
+  selector: 'ds-base-community-list',
   templateUrl: './community-list.component.html',
+  styleUrls: ['./community-list.component.scss'],
+  standalone: true,
+  imports: [NgIf, ThemedLoadingComponent, CdkTreeModule, NgClass, RouterLink, TruncatableComponent, TruncatablePartComponent, AsyncPipe, TranslateModule],
 })
 export class CommunityListComponent implements OnInit, OnDestroy {
 
@@ -26,7 +50,7 @@ export class CommunityListComponent implements OnInit, OnDestroy {
   public loadingNode: FlatNode;
 
   treeControl = new FlatTreeControl<FlatNode>(
-    (node: FlatNode) => node.level, (node: FlatNode) => true
+    (node: FlatNode) => node.level, (node: FlatNode) => true,
   );
   dataSource: CommunityListDatasource;
   paginationConfig: FindListOptions;
@@ -84,7 +108,7 @@ export class CommunityListComponent implements OnInit, OnDestroy {
   toggleExpanded(node: FlatNode) {
     this.loadingNode = node;
     if (node.isExpanded) {
-      this.expandedNodes = this.expandedNodes.filter((node2) => node2.name !== node.name);
+      this.expandedNodes = this.expandedNodes.filter((node2) => node2.id !== node.id);
       node.isExpanded = false;
     } else {
       this.expandedNodes.push(node);
@@ -111,19 +135,18 @@ export class CommunityListComponent implements OnInit, OnDestroy {
   getNextPage(node: FlatNode): void {
     this.loadingNode = node;
     if (node.parent != null) {
-      if (node.id === 'collection') {
+      if (node.id.startsWith('collection')) {
         const parentNodeInExpandedNodes = this.expandedNodes.find((node2: FlatNode) => node.parent.id === node2.id);
         parentNodeInExpandedNodes.currentCollectionPage++;
       }
-      if (node.id === 'community') {
+      if (node.id.startsWith('community')) {
         const parentNodeInExpandedNodes = this.expandedNodes.find((node2: FlatNode) => node.parent.id === node2.id);
         parentNodeInExpandedNodes.currentCommunityPage++;
       }
-      this.dataSource.loadCommunities(this.paginationConfig, this.expandedNodes);
     } else {
       this.paginationConfig.currentPage++;
-      this.dataSource.loadCommunities(this.paginationConfig, this.expandedNodes);
     }
+    this.dataSource.loadCommunities(this.paginationConfig, this.expandedNodes);
   }
 
 }

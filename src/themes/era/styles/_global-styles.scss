@@ -7,14 +7,14 @@ body {
     line-height: 1.428571429;
     color: #333;
 }
-.main-content {
+#main-content {
     background: url('../assets/images/era-globe-icon.png') right top no-repeat;
     background-size: 35%;
     margin-top: 0px!important;
     margin-bottom: -5px!important;
     padding-top: var(--ds-content-spacing);
 }
-.main-content-lower {
+#main-content-lower {
     background: url('../assets/images/era-daisy-icon.png') left bottom no-repeat;
     background-size: 45%;
     margin-top: 0px!important;
@@ -55,7 +55,7 @@ i.fas.fa-globe-asia.fa-lg.fa-fw {
     background-color: #fff!important;
 }
 .breadcrumb {
-    padding: 0px;
+    padding: 0px!important;
     list-style: none!important;
 }
 li.breadcrumb-item { 
@@ -159,6 +159,9 @@ a.btn.btn-outline-primary:hover i.fas.fa-info-circle{
     background-color: #f9f9f9!important;
     color: #830065!important;
 }
+div#loginDropdownMenu {
+    width: 330px !important;
+}
 
 .page-link {
     color: #3a3a3a;
@@ -177,8 +180,14 @@ a.btn.btn-outline-primary:hover i.fas.fa-info-circle{
 .item-page-title-field span {
     color: #830065;
 }
+.navbar {
+    padding: 0rem 1rem;
+}
 .navbar-header {
     border-bottom: 0px;
+}
+.navbar-toggler {
+    color: #fff!important;
 }
 
 .nav-item .nav-link,
@@ -207,7 +216,7 @@ a.btn.btn-outline-primary:hover i.fas.fa-info-circle{
     color: #830065;
 }
 
-.setting-option h5 {
+.setting-option h4 {
     border-bottom: 0px;
     font-size: 1.1rem;
 }
@@ -313,3 +322,20 @@ i.fas.fa-lock {
     display: block !important;
 }
   
+#expandable-navbar-section-browse_global-dropdown {
+    color: #690051!important;
+}
+
+div#collapsingNav a {
+    color: #fff;
+}
+div#collapsingNav a:hover {
+    text-decoration: none;
+}
+.dropdown-overide {
+    background-color: #830065!important;
+}
+.dropdown-overide a {
+    color: #fff!important;
+    padding: .5rem 1rem;
+}
