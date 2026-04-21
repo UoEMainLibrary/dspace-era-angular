@@ -5306,4 +5306,21 @@
   "access-control-option-end-date": "Grant access until",
 
   "access-control-option-end-date-note": "Select the date until which the related access condition is applied",
+
+  "collection.page.browse.search.head": "Search",
+
+  "collection.search.results.head": "Search Results",
+
+  "collection.search.breadcrumbs": "Search",
+
+  "collection.page.browse.search.head": "Search",
+
+  "community.search.breadcrumbs": "Search",
+
+  "community.search.results.head": "Search Results",
+
+  "community.subcoms-cols.breadcrumbs": "Subcommunities and Collections",
+
+  "community.search.results.head": "Search Results",
+
 }
