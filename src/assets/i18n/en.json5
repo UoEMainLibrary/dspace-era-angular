@@ -886,9 +886,9 @@
 
   "browse.taxonomy.button": "Browse",
 
-  "browse.title": "Browsing {{ collection }} {{ field }}{{ startsWith }} {{ value }}",
+  "browse.title": "Browsing {{ field }}{{ startsWith }} {{ value }}",
 
-  "browse.title.page": "Browsing {{ collection }} {{ field }} {{ value }}",
+  "browse.title.page": "Browsing {{ field }} {{ value }}",
 
   "search.browse.item-back": "Back to Results",
 
