@@ -1021,6 +1021,8 @@
 
   "browse.metadata.subject": "Subject",
 
+  "browse.comcol.by.supervisor": "Supervisor",
+
   "browse.metadata.title": "Title",
 
   "browse.metadata.srsc": "Subject Category",
@@ -3273,7 +3275,7 @@
 
   "login.form.password": "Password",
 
-  "login.form.shibboleth": "Log in with Shibboleth",
+  "login.form.shibboleth": "University Login",
 
   "login.form.submit": "Log in",
 
