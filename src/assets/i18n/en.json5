@@ -2864,6 +2864,12 @@
 
   "menu.section.browse_global_by_title": "Title",
 
+  "menu.section.notifications": "Notifications",
+
+  "menu.section.notifications_publication-claim": "Publication Claim",
+
+  "menu.section.notifications_publication-claim.breadcrumbs": "Publication Claim",
+
   // custom
   "menu.section.browse_global_by_itemtype": "Publication Type",
 
