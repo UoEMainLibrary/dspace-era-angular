@@ -5334,7 +5334,7 @@
   // "login.form.password": "Password",
   "login.form.password": "Mật khẩu",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "Đăng nhập bằng Shibboleth",
 
   // "login.form.submit": "Log in",

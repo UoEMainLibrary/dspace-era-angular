@@ -5250,7 +5250,7 @@
   // "login.form.password": "Password",
   "login.form.password": "Lozinka",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "Prijavite se sa Shibboleth",
 
   // "login.form.submit": "Log in",

@@ -4939,7 +4939,7 @@
   // "login.form.password": "Password",
   "login.form.password": "Contrasenya",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "Iniciar sessió amb Shibboleth",
 
   // "login.form.submit": "Log in",

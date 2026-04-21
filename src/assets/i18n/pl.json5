@@ -5256,7 +5256,7 @@
   // "login.form.password": "Password",
   "login.form.password": "Hasło",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "Zaloguj za pomocą Shibboleth",
 
   // "login.form.submit": "Log in",

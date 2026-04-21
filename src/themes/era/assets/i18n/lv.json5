@@ -3134,7 +3134,7 @@
   // "login.form.password": "Password",
   "login.form.password": "Parole",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "Pieslēgties ar Shibboleth",
 
   // "login.form.submit": "Log in",

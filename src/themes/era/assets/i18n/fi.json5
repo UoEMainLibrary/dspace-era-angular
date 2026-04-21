@@ -4122,7 +4122,7 @@
   // "login.form.password": "Password",
   "login.form.password": "Salasana",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "Shibboleth-kirjautuminen",
 
   // "login.form.submit": "Log in",

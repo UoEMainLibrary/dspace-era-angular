@@ -5434,7 +5434,7 @@
   // "login.form.password": "Password",
   "login.form.password": "पासवर्ड",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "शिबोलेथ के साथ लॉग इन करें",
 
   // "login.form.submit": "Log in",

@@ -5437,7 +5437,7 @@
   // "login.form.password": "Password",
   "login.form.password": "Κωδικός πρόσβασης",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "Συνδεθείτε με το Shibboleth",
 
   // "login.form.submit": "Log in",

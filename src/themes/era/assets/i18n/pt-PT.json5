@@ -4121,7 +4121,7 @@
   // "login.form.password": "Password",
   "login.form.password": "Palavra-chave",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "Entrar com autenticação federada",
 
   // "login.form.submit": "Log in",

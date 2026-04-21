@@ -6155,9 +6155,9 @@
   // "login.form.password": "Password",
   "login.form.password": "Wachtwoord",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   // TODO New key - Add a translation
-  "login.form.shibboleth": "Log in with Shibboleth",
+  "login.form.shibboleth": "University Login",
 
   // "login.form.submit": "Log in",
   "login.form.submit": "Aanmelden",

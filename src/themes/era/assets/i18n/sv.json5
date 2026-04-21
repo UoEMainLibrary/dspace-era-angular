@@ -3570,7 +3570,7 @@
   // "login.form.password": "Password",
   "login.form.password": "Lösenord",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "Logga in med Shibboleth",
 
   // "login.form.submit": "Log in",

@@ -5252,7 +5252,7 @@
   // "login.form.password": "Password",
   "login.form.password": "Лозинка",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "Пријавите се са Shibboleth",
 
   // "login.form.submit": "Log in",

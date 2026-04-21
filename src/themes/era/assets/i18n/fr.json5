@@ -3486,7 +3486,7 @@
   // "login.form.password": "Password",
   "login.form.password": "Mot de passe",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "Se connecter via Shibboleth",
 
   // "login.form.submit": "Log in",

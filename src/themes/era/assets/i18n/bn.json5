@@ -3516,7 +3516,7 @@
   // "login.form.password": "Password",
   "login.form.password": "পাসওয়ার্ড",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "Shibboleth এর সঙ্গে লগ ইন করুন",
 
   // "login.form.submit": "Log in",

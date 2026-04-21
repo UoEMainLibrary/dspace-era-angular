@@ -4183,7 +4183,7 @@
   // "login.form.password": "Password",
   "login.form.password": "Password",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "Accedi con Shibboleth",
 
   // "login.form.submit": "Log in",

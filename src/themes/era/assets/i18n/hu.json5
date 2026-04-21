@@ -4588,7 +4588,7 @@
   // "login.form.password": "Password",
   "login.form.password": "Jelszó",
 
-  // "login.form.shibboleth": "Log in with Shibboleth",
+  // "login.form.shibboleth": "University Login",
   "login.form.shibboleth": "Lépjen be Shibboleth-el",
 
   // "login.form.submit": "Log in",
