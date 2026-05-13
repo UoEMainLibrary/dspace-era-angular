@@ -3002,7 +3002,7 @@
 
   "metadata-export-search.submit.error": "Starting the export has failed",
 
-  "mydspace.breadcrumbs": "ERA",
+  "mydspace.breadcrumbs": "ERA Admin",
 
   "mydspace.description": "",
 
@@ -3074,7 +3074,7 @@
 
   "mydspace.status.mydspaceWorkspace": "Workspace",
 
-  "mydspace.title": "ERA",
+  "mydspace.title": "ERA Admin",
 
   "mydspace.upload.upload-failed": "Error creating new workspace. Please verify the content uploaded before retry.",
 
@@ -3102,7 +3102,7 @@
 
   "nav.main.description": "Main navigation bar",
 
-  "nav.mydspace": "ERA",
+  "nav.mydspace": "ERA Admin",
 
   "nav.profile": "Profile",
 
