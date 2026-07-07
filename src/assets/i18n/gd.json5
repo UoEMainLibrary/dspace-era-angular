@@ -3638,9 +3638,9 @@
   // "home.top-level-communities.help": "Select a community to browse its collections.",
   "home.top-level-communities.help": "Tagh coimhearsnachd agus brobhs na cruinneachaidhean.",
 
-  // "info.accessibility-settings.breadcrumbs": "Accessibility settings",
+  // "info.accessibility-settings.breadcrumbs": "Accessibility Statement",
   // TODO New key - Add a translation
-  "info.accessibility-settings.breadcrumbs": "Accessibility settings",
+  "info.accessibility-settings.breadcrumbs": "Accessibility Statement",
 
   // "info.accessibility-settings.cookie-warning": "Saving the accessibility settings is currently not possible. Either log in to save the settings in user data, or accept the 'Accessibility Settings' cookie using the 'Cookie Settings' menu at the bottom of the page. Once the cookie has been accepted, you can reload the page to remove this message.",
   // TODO New key - Add a translation
@@ -3710,9 +3710,9 @@
   // TODO New key - Add a translation
   "info.accessibility-settings.submit": "Save accessibility settings",
 
-  // "info.accessibility-settings.title": "Accessibility settings",
+  // "info.accessibility-settings.title": "Accessibility Statement",
   // TODO New key - Add a translation
-  "info.accessibility-settings.title": "Accessibility settings",
+  "info.accessibility-settings.title": "Accessibility Statement",
 
   // "info.end-user-agreement.accept": "I have read and I agree to the End User Agreement",
   "info.end-user-agreement.accept": "Leugh mi agus ghabh mi ri Aonta an Neach-cleachdaidh Dheireannaich",
