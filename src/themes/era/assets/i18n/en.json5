@@ -5229,4 +5229,9 @@
   "access-control-option-end-date": "Grant access until",
 
   "access-control-option-end-date-note": "Select the date until which the related access condition is applied",
+
+  "info.accessibility-settings.title": "Accessibility Statement",
+
+  "info.accessibility-settings.breadcrumbs": "Accessibility Statement",
+  
 }
