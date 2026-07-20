@@ -5,8 +5,9 @@
     </p>
     <p>This website is run by the Library and University Collections Directorate, Information Services Group at the University of Edinburgh. We want as many people as possible to be able to use this application. For example, that means you should be able to:</p>
     <ul>
-        <li>Change most colours and contrast levels</li>
-        <li>Encounter no need for dragging movements</li>
+        <li>Using browser settings, to change most colours and contrast levels</li>
+        <li>Use the website without needing to use drag functionality to access any content</li>
+        <li>Encounter no flashing, scrolling or moving text</li>
     </ul>
     <p>We’ve also made the website text as simple as possible to understand. However, some of our content is technical, and we use technical terms where there is no easier wording we could use without changing what the text means.</p>
 
@@ -27,21 +28,26 @@
     <h2>How accessible this website is</h2>
     <p>We know some parts of this website are not fully accessible:</p>
     <ul>
-        <li>It is not possible to keyboard navigate to all content as there is a keyboard trap</li>
+        <li>It is not possible to keyboard navigate to all content using keyboard only</li>
+        <li>There is a keyboard trap for users navigating by keyboard only</li>
         <li>Keyboard navigation focus indicators can be hard to see</li>
-        <li>The skip to main content function is not visible</li>
+        <li>The skip to main content function is not visible and cannot be reached by keyboard </li>
         <li>The website is not fully compatible with assistive technologies such as screen readers and voice recognition software</li>
         <li>There are pop ups that open without warning </li>
         <li>There are pop-ups that obscure or render other content inaccessible</li>
         <li>There are some instances where colour contrast does not meet the WCAG 2.2 AA standard</li>
         <li>There are examples of text as images</li>
+        <li>Some pop ups disappear after a short time period without human interaction</li>
         <li>Not all non text content has a text alternative</li>
         <li>There are examples of information conveyed by colour only, for example links that are not underlined</li>
         <li>There are examples of links without meaningful hypertext</li>
         <li>There are time limits that cannot be extended in that data validation message disappear without user interaction </li>
-        <li>Some content does not magnify correctly from 500%</li>
+        <li>Some content does not magnify correctly up to 400%</li>
+        <li>Some content does not reflow correctly yup to 400%</li>
         <li>Some heading levels are missing throughout the site</li>
         <li>Error suggestions are not always given and appear in an inaccessible manner</li>
+        <li>There are PDFs that are not fully accessible</li>
+        <li>Not all URL’s are meaningful hypertext</li>
     </ul>
 
     <h2>Feedback and contact information</h2>
@@ -108,9 +114,23 @@
         <li>There may not be sufficient colour contrast between font and background colours for data validation.
             <ul>
                 <li><a href="https://www.w3.org/TR/WCAG22/#contrast-minimum" title="Link to the Web Content Accessibility Guidelines (WCAG) website">1.4.3 Contrast (Minimum)</a></li>
-                <li><a href="https://www.w3.org/TR/WCAG22/#images-of-text" title="Link to the Web Content Accessibility Guidelines (WCAG) website">1.4.5 Images of Text</a></li>
             </ul>
         </li>
+        <li>•   It is no possible to magnify all content to 200%
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG22/#resize-text" title="Link to the Web Content Accessibility Guidelines (WCAG) website">o   1.4.4. Resize text</a></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li>•   There are images of text</li>
+                <li><a href="https://www.w3.org/TR/WCAG22/#images-of-text" title="Link to the Web Content Accessibility Guidelines (WCAG) website">o    1.4.5 Images of text</a></li>
+            </ul>
+        </li>
+        <li>•   Reflow is not enabled to 400%
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG22/#reflow" title="Link to the Web Content Accessibility Guidelines (WCAG) website">1.4.10 Reflow</a></li>
+            </ul>
         <li >Not all content can be reached and interacted with by keyboard alone.
             <ul>
                 <li><a href="https://www.w3.org/TR/WCAG22/#keyboard" title="Link to the Web Content Accessibility Guidelines (WCAG) website">2.1.1 Keyboard</a></li>
@@ -138,6 +158,11 @@
                 <li><a href="https://www.w3.org/TR/WCAG21/#link-purpose-in-context" title="Link to the Web Content Accessibility Guidelines (WCAG) website">2.4.4 Link Purpose (In Context)</a></li>
             </ul>
         </li>
+        <li>•   Some heading levels are nor formatted correctly and heading levels are skipped
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG22/#headings-and-labels" title="Link to the Web Content Accessibility Guidelines (WCAG) website">o   2.4.6 Headings and Labels</a></li>
+            </ul>
+        </li>
         <li>It is not always clear where you have navigated to using the keyboard.
             <ul>
                 <li><a href="https://www.w3.org/TR/WCAG22/#focus-visible" title="Link to the Web Content Accessibility Guidelines (WCAG) website">2.4.7 Focus Visible</a></li>
@@ -158,7 +183,7 @@
                 <li><a href="https://www.w3.org/TR/WCAG22/#error-suggestion" title="Link to the Web Content Accessibility Guidelines (WCAG) website">3.3.3 Error Suggestion</a></li>
             </ul>
         </li>
-        <li>The site is not fully compatible with assistive software such as Screen readers  or voice recognition software  e.g. Form elements do not always have labels, buttons do not always have discernible text, some interactive controls are nested etc.
+        <li>•   The site is not fully compatible with assistive software such as Screen readers  or voice recognition software  e.g. Interactive controls are nested, ARIA hidden elements are focusable, elements do not only use supported ARIA attributes and select elements do not have an accessible name 
             <ul>
                 <li><a href="https://www.w3.org/TR/WCAG22/#name-role-value" title="Link to the Web Content Accessibility Guidelines (WCAG) website">4.1.2 Name, Role, Value</a></li>
             </ul>
@@ -214,9 +239,7 @@
     <h2>Change Log</h2>
     <ol>
         <li>October 2025 - A ‘skip to main content’ option has been added that is audible to users of assistive software but is not visually apparent as it is blocked by other content so this later aspect needs to be resolved to fully meet the criteria.</li> 
-        <li>July 2026 - Reflow has been fixed for magnification above 200%.</li>
         <li>July 2026 - Tooltips are present for all icons and images.</li>
-        <li>July 2026 - Voice recognition software can identify all elements of the page.</li>
     </ol>
     
 </div>
